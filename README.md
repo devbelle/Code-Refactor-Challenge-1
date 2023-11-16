@@ -2,7 +2,7 @@
 
 ##Description
 
-This is the first assignment of the BCS coding bootcamp. In this assignment, students are given a webpage to de-bug and restucture in the semantic mark-up style. The original webpage did not have all linked tags in the nav section working, and the imdex file and stylesheet structure were not labeled with semantic mark-up in mind. With the changes I have added, all links in the nav sections are functional and another programer can look through the stylesheet and check to see what is being affected in the html document thanks to the comments. This challenge has shown me how to add links and the importance of organizing code to make any future assignment more readable for other users to access and understand. 
+This is the first assignment of the BCS coding bootcamp. In this assignment, students are given a webpage to de-bug and restructure in the semantic mark-up style. The original webpage did not have all linked tags in the nav section working, and the imdex file and stylesheet structure were not labeled with semantic mark-up in mind. With the changes I have added, all links in the nav sections are functional and another programer can look through the stylesheet and check to see what is being affected in the html document thanks to the comments. This challenge has shown me how to add links and the importance of organizing code to make any future assignment more readable for other users to access and understand. 
 
 ##Installation
 
