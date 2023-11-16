@@ -1,64 +1,37 @@
-/*below is what is applied to the entire webpage*/
+/*Below thew * is what is applied to the entire webpage.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/*background color behind div sections*/
-body {
-    background-color: #d9dcd6;
-}
-
-/* Top bar where logo and search tabs exist*/
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-/*Makes logo and link tabs on the same line*/
-#logo{
-    display: inline-block;
-    font-size: 48px;
-}
-
-/*seo will color part of the logo*/
-.seo {
-    color: #d9dcd6;
-}
-
-/*clickable links positioned on the right margin of the website*/
-#links {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-/* the 3 links in the header, keeps them from being shown as a list*/
-.link-list {
-    list-style-type: none;
-}
-
-/* the bullet points of the unorder list with inline display applied to show them side by side*/
-.link-list li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-/*anchor tag with same color applied as the logo*/
+/*The anchor tag with same color applied as the logo.*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/*The positioning of the h2 elements that target the sections linked in the nav.*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
-/* paragraph text font size applied to all paragraph elemnets int he webpage*/
+/*The alignment for the titles of each benefit.*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*The background color behind sections.*/
+main {
+    background-color: #d9dcd6;
+}
+
+
+/*The paragraph text font size that is applied to all paragraph elemnets in the sections of the html doc.*/
 p {
     font-size: 16px;
 }
 
-/*background image below the header*/
+/*The figure section which has the background image below the header.*/
 .background-image {
     height: 800px;
     width: 100%;
@@ -67,36 +40,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-/* search engine optimization image position*/
-.optimization-image {
-    float: right;
-    margin-left: 25px;
-    max-height: 200px;
-
+/*The section criteria for each individual benefit in the aside.*/
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
-
-/* online reputation management image position*/
-.management-image {
-    float: left;
-    margin-right: 25px;
-    max-height: 200px;
-}
-
-/* social media marketing image position*/
-.marketing-image {
-    float: right;
-    margin-left: 25px;
-    max-height: 200px;
-}
-/* The display values and position for the content of the header links*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* right most column that shows the benefits for user*/
+/*The aside which is the right most column that shows the benefits for user.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,26 +57,46 @@ p {
     background-color: #2589bd;
 }
 
-/* Section criteria for each individual benefit*/
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-/*Alignment for the titles of each benefit */
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-/*Positioning, sizing, and alignment of the images in the benefits section.*/
+/*The positioning, sizing, and alignment of the images in the benefits aside.*/
 .benefit-image {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/*The article which displays values and positioning for the content in the nav.*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*The sizing for the footer.*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*The top bar where logo and nav tabs exist.*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*The 3 links in the header marked as nav, which keeps them from being shown as a list.*/
+.link-list {
+    list-style-type: none;
+}
 
-/*Sizing of each linked section*/
+/*The bullet points of the unorder list with inline display applied to show them side by side.*/
+.link-list li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*The sizing of each list item in the nav.*/
 .linked-content{
     margin-bottom: 20px;
     padding: 50px;
@@ -136,22 +105,44 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-/*The positioning of h2 elements mainly aiming for the linked sections*/
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/*The online reputation management image position.*/
+.management-image {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
 }
-
-/*Sizing for the footer*/
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+/*The social media marketing image position.*/
+.marketing-image {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
 }
-
-/*Font-size for the specific h2 footer title*/
+/*The search engine optimization image position.*/
+.optimization-image {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+    
+}
+/*The part of the Horiseon loga that will color the seo letters.*/
+.seo {
+    color: #d9dcd6;
+}
+/*The font-size for the specific h2 footer title.*/
 #copyright{
     font-size: 20px;
+}
+
+/*The clickable links positioned on the right margin of the html doc also called the nav.*/
+#links {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*The logo that is positioned next to the nav, makes the nav and logo side by side in the HTML doc.*/
+#logo{
+    display: inline-block;
+    font-size: 48px;
 }
