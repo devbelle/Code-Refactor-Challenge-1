@@ -21,6 +21,7 @@ https://github.com/devbelle/Code-Refactor-Challenge-1/blob/b38c8bfa8e84fd42acf85
 
 
 ##Credits
+
 All commits and changes to this assignment were implemented by Devin Belle
 
 ##License
