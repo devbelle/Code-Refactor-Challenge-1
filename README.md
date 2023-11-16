@@ -9,3 +9,15 @@ This is the first assignment of the BCS coding bootcamp. In this assignment, stu
 To access, copy the repository in github, then use the git clone function in command line to clone this repository into your local machine. 
 
 ##Usage
+
+##Credits
+All commits and chnages to this assignment were implemented by Devin Belle
+
+##License
+N/A
+
+##Features
+Webpage includes three clickable links in the nav header that go to the corresponding section in the body of the webpage. Code now has the semantic structure applied and comments in the CSS stylesheet for better readability. 
+
+##Tests
+Open code in default web browser and click on the header titles int he navigation bar to check if kinks work. 
