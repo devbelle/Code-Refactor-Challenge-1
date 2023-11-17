@@ -11,12 +11,15 @@ To access, copy the repository in github, then use the git clone function in com
 ##Usage
 
 Link below:
+
 https://devbelle.github.io/Horiseon-Refactoring/
 
 Screenshots below:
-https://github.com/devbelle/Code-Refactor-Challenge-1/blob/b38c8bfa8e84fd42acf8577eccd9522255d981d4/assets/images/screenshot-1.png
-https://github.com/devbelle/Code-Refactor-Challenge-1/blob/b38c8bfa8e84fd42acf8577eccd9522255d981d4/assets/images/screenshot-2.png
-https://github.com/devbelle/Code-Refactor-Challenge-1/blob/b38c8bfa8e84fd42acf8577eccd9522255d981d4/assets/images/screenshot-3.png
+
+https://github.com/devbelle/Horiseon-Refactoring/blob/1b4a1598371441c3b45c49bcc6c900fcf44a2f82/assets/images/screenshot-1.png
+https://github.com/devbelle/Horiseon-Refactoring/blob/1b4a1598371441c3b45c49bcc6c900fcf44a2f82/assets/images/screenshot-2.png
+https://github.com/devbelle/Horiseon-Refactoring/blob/1b4a1598371441c3b45c49bcc6c900fcf44a2f82/assets/images/screenshot-3.png
+
 
 
 
